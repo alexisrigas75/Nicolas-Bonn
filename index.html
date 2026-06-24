@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Title & Description -->
+  <title>Nicolas BONN – Plombier, Chauffagiste, Ramoneur à Uzer (Ardèche)</title>
+  <meta name="description" content="Nicolas BONN, artisan plombier chauffagiste ramoneur à Uzer en Ardèche. Dépannage, entretien, travaux de plomberie et chauffage. Contactez-le au 06 72 10 23 93." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://nicolas-bonn.vercel.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nicolas-bonn.vercel.app/" />
+  <meta property="og:title" content="Nicolas BONN – Plombier, Chauffagiste, Ramoneur à Uzer (Ardèche)" />
+  <meta property="og:description" content="Nicolas BONN, artisan local à Uzer en Ardèche. Plomberie, chauffage, ramonage, dépannage et entretien à domicile. Appelez le 06 72 10 23 93." />
+  <meta property="og:image" content="https://nicolas-bonn.vercel.app/og-image.jpg" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔧</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data – LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Plumber",
+    "name": "Nicolas BONN",
+    "image": "https://nicolas-bonn.vercel.app/og-image.jpg",
+    "description": "Artisan plombier chauffagiste ramoneur à Uzer, Ardèche. Plomberie, chauffage, ramonage, dépannage et entretien à domicile.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "825 Quartier les Combes Volpillieres",
+      "addressLocality": "Uzer",
+      "addressRegion": "Ardèche",
+      "postalCode": "07110",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.4167,
+      "longitude": 4.3833
+    },
+    "url": "https://nicolas-bonn.vercel.app/",
+    "telephone": "+33672102393",
+    "email": "nbsnico.007@hotmail.fr",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=100089668975524"
+    ],
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.4167,
+        "longitude": 4.3833
+      },
+      "geoRadius": "30000"
+    },
+    "priceRange": "€€",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      }
+    ]
+  }
+  </script>
+
+  <!-- FAQ Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Nicolas BONN intervient-il à Uzer ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, Nicolas BONN est basé à Uzer en Ardèche et intervient à Uzer et dans les communes environnantes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels services propose Nicolas BONN ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nicolas BONN propose des services de plomberie, chauffage, ramonage, dépannage et entretien à domicile."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment contacter Nicolas BONN rapidement ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vous pouvez appeler Nicolas BONN au 06 72 10 23 93 (mobile) ou au 04 75 93 09 22 (fixe)."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==============================
+       RESET & BASE
+    ============================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --navy:      #1a2744;
+      --navy-dark: #111b33;
+      --orange:    #e8701a;
+      --orange-lt: #f08c3e;
+      --gray-50:   #f8f8f6;
+      --gray-100:  #f0efeb;
+      --gray-200:  #e2e0d8;
+      --gray-500:  #7a7a72;
+      --gray-700:  #3f3f37;
+      --white:     #ffffff;
+      --radius:    10px;
+      --shadow:    0 4px 24px rgba(26,39,68,.10);
+      --shadow-lg: 0 8px 40px rgba(26,39,68,.16);
+      --font:      'Inter', system-ui, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      color: var(--gray-700);
+      background: var(--white);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ==============================
+       HEADER / NAV
+    ============================== */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--navy-dark);
+      box-shadow: 0 2px 12px rgba(0,0,0,.3);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--white);
+    }
+
+    .logo-icon {
+      width: 38px;
+      height: 38px;
+      background: var(--orange);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .logo-text strong {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+
+    .logo-text span {
+      font-size: 11px;
+      color: rgba(255,255,255,.65);
+      font-weight: 400;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    nav a {
+      color: rgba(255,255,255,.80);
+      font-size: 13.5px;
+      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background .2s, color .2s;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,.10);
+      color: var(--white);
+    }
+
+    .nav-cta {
+      background: var(--orange) !important;
+      color: var(--white) !important;
+      padding: 8px 16px !important;
+      border-radius: 8px !important;
+      font-weight: 600 !important;
+    }
+
+    .nav-cta:hover {
+      background: var(--orange-lt) !important;
+    }
+
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: white;
+      padding: 4px;
+    }
+
+    /* ==============================
+       HERO
+    ============================== */
+    .hero {
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 60%, #1e3a6e 100%);
+      color: var(--white);
+      padding: 80px 20px 70px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(232,112,26,.20);
+      border: 1px solid rgba(232,112,26,.40);
+      color: #f9b87a;
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 100px;
+      margin-bottom: 22px;
+      letter-spacing: .4px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 52px);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      max-width: 700px;
+    }
+
+    .hero h1 em {
+      color: var(--orange-lt);
+      font-style: normal;
+    }
+
+    .hero-sub {
+      font-size: clamp(15px, 2.5vw, 18px);
+      color: rgba(255,255,255,.80);
+      max-width: 580px;
+      margin-bottom: 36px;
+      line-height: 1.65;
+    }
+
+    .hero-btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 26px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: transform .15s, box-shadow .15s, background .2s;
+      border: none;
+      text-decoration: none;
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+
+    .btn-primary {
+      background: var(--orange);
+      color: var(--white);
+      box-shadow: 0 4px 18px rgba(232,112,26,.45);
+    }
+
+    .btn-primary:hover {
+      background: var(--orange-lt);
+      box-shadow: 0 6px 24px rgba(232,112,26,.55);
+    }
+
+    .btn-outline {
+      background: rgba(255,255,255,.10);
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,.35);
+    }
+
+    .btn-outline:hover {
+      background: rgba(255,255,255,.18);
+      border-color: rgba(255,255,255,.6);
+    }
+
+    .hero-phones {
+      margin-top: 38px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .hero-phone-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255,255,255,.80);
+      font-size: 14px;
+    }
+
+    .hero-phone-item strong {
+      color: var(--white);
+      font-size: 16px;
+    }
+
+    .hero-phone-icon {
+      width: 34px;
+      height: 34px;
+      background: rgba(255,255,255,.10);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+
+    /* ==============================
+       TRUST BAR
+    ============================== */
+    .trust-bar {
+      background: var(--orange);
+      color: var(--white);
+      padding: 14px 20px;
+    }
+
+    .trust-bar-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px 30px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13.5px;
+      font-weight: 600;
+    }
+
+    /* ==============================
+       SECTIONS
+    ============================== */
+    section {
+      padding: 70px 20px;
+    }
+
+    .section-label {
+      display: inline-block;
+      background: rgba(232,112,26,.12);
+      color: var(--orange);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 100px;
+      margin-bottom: 14px;
+    }
+
+    h2.section-title {
+      font-size: clamp(22px, 4vw, 36px);
+      font-weight: 800;
+      color: var(--navy);
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+
+    .section-desc {
+      font-size: 16px;
+      color: var(--gray-500);
+      max-width: 560px;
+      line-height: 1.65;
+    }
+
+    .section-head {
+      margin-bottom: 50px;
+    }
+
+    /* ==============================
+       SERVICES GRID
+    ============================== */
+    #services { background: var(--gray-50); }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 22px;
+    }
+
+    .service-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      box-shadow: var(--shadow);
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .service-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(232,112,26,.12), rgba(232,112,26,.06));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      margin-bottom: 18px;
+    }
+
+    .service-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: var(--gray-500);
+      line-height: 1.6;
+    }
+
+    /* ==============================
+       URGENCE / DÉPANNAGE
+    ============================== */
+    #depannage {
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%);
+      color: var(--white);
+    }
+
+    .depannage-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .depannage-title { color: var(--white) !important; }
+    .depannage-desc  { color: rgba(255,255,255,.75) !important; }
+
+    .depannage-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin: 28px 0 36px;
+    }
+
+    .depannage-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 15px;
+      color: rgba(255,255,255,.85);
+    }
+
+    .depannage-list li .icon {
+      width: 30px;
+      height: 30px;
+      background: rgba(232,112,26,.25);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 16px;
+    }
+
+    .depannage-box {
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 16px;
+      padding: 36px 30px;
+      text-align: center;
+    }
+
+    .depannage-box .big-phone {
+      font-size: clamp(22px, 4vw, 32px);
+      font-weight: 800;
+      color: var(--white);
+      display: block;
+      margin: 14px 0 8px;
+      letter-spacing: .5px;
+    }
+
+    .depannage-box .phone-label {
+      font-size: 13px;
+      color: rgba(255,255,255,.6);
+      margin-bottom: 6px;
+    }
+
+    .depannage-box .fixed-phone {
+      font-size: 15px;
+      color: rgba(255,255,255,.70);
+      margin-bottom: 24px;
+    }
+
+    .depannage-box .emoji-big { font-size: 42px; }
+
+    /* ==============================
+       CONFIANCE
+    ============================== */
+    #confiance { background: var(--white); }
+
+    .confiance-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .confiance-card {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 28px 22px;
+      text-align: center;
+    }
+
+    .confiance-card .icon {
+      font-size: 36px;
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .confiance-card h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+
+    .confiance-card p {
+      font-size: 13.5px;
+      color: var(--gray-500);
+      line-height: 1.55;
+    }
+
+    /* ==============================
+       CONTACT
+    ============================== */
+    #contact { background: var(--gray-50); }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .contact-info-block {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+
+    .contact-item .ci-icon {
+      width: 44px;
+      height: 44px;
+      background: rgba(232,112,26,.10);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    .contact-item .ci-body strong {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gray-500);
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 4px;
+    }
+
+    .contact-item .ci-body a,
+    .contact-item .ci-body span {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+
+    .contact-item .ci-body a:hover { color: var(--orange); }
+
+    .contact-item .ci-body .secondary {
+      display: block;
+      font-size: 13.5px;
+      font-weight: 400;
+      color: var(--gray-500);
+      margin-top: 2px;
+    }
+
+    .map-placeholder {
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--gray-200);
+      min-height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 10px;
+      border: 2px dashed var(--gray-200);
+      padding: 30px;
+    }
+
+    .map-placeholder .map-emoji { font-size: 52px; }
+    .map-placeholder p { font-size: 14px; color: var(--gray-500); }
+    .map-placeholder strong { font-size: 15px; color: var(--navy); }
+
+    /* ==============================
+       FAQ
+    ============================== */
+    #faq { background: var(--white); }
+
+    .faq-list {
+      max-width: 760px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .faq-item {
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 18px 22px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--navy);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      transition: background .15s;
+    }
+
+    .faq-question:hover { background: var(--gray-50); }
+
+    .faq-question.open { background: var(--gray-50); }
+
+    .faq-arrow {
+      font-size: 12px;
+      color: var(--orange);
+      flex-shrink: 0;
+      transition: transform .2s;
+    }
+
+    .faq-question.open .faq-arrow { transform: rotate(180deg); }
+
+    .faq-answer {
+      display: none;
+      padding: 0 22px 18px;
+      font-size: 14.5px;
+      color: var(--gray-500);
+      line-height: 1.65;
+      background: var(--gray-50);
+    }
+
+    .faq-answer.open { display: block; }
+
+    /* ==============================
+       PHOTO PLACEHOLDER
+    ============================== */
+    .photo-placeholder {
+      background: var(--gray-100);
+      border: 2px dashed var(--gray-200);
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-align: center;
+      padding: 40px 24px;
+      color: var(--gray-500);
+      font-size: 13.5px;
+    }
+
+    .photo-placeholder .ph-icon { font-size: 48px; }
+    .photo-placeholder strong { color: var(--gray-700); font-size: 14px; }
+
+    /* ==============================
+       FOOTER
+    ============================== */
+    footer {
+      background: var(--navy-dark);
+      color: rgba(255,255,255,.75);
+      padding: 50px 20px 28px;
+    }
+
+    .footer-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    .footer-brand .logo-text strong { font-size: 16px; }
+
+    .footer-tagline {
+      font-size: 13.5px;
+      color: rgba(255,255,255,.55);
+      margin-top: 12px;
+      line-height: 1.6;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .social-btn {
+      width: 36px;
+      height: 36px;
+      background: rgba(255,255,255,.10);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      transition: background .2s;
+    }
+
+    .social-btn:hover { background: var(--orange); }
+
+    footer h4 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--white);
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      margin-bottom: 16px;
+    }
+
+    footer ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    footer ul li a {
+      font-size: 13.5px;
+      color: rgba(255,255,255,.65);
+      transition: color .2s;
+    }
+
+    footer ul li a:hover { color: var(--orange); }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.10);
+      padding-top: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12.5px;
+      color: rgba(255,255,255,.45);
+    }
+
+    /* ==============================
+       STICKY MOBILE CTA
+    ============================== */
+    .sticky-cta {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 200;
+      background: var(--navy-dark);
+      border-top: 1px solid rgba(255,255,255,.10);
+      padding: 10px 16px 10px;
+      padding-bottom: calc(10px + env(safe-area-inset-bottom));
+      box-shadow: 0 -4px 20px rgba(0,0,0,.25);
+    }
+
+    .sticky-cta-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .sticky-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 13px 10px;
+      border-radius: 10px;
+      font-size: 13.5px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity .2s;
+    }
+
+    .sticky-btn:active { opacity: .85; }
+
+    .sticky-btn-call {
+      background: var(--orange);
+      color: var(--white);
+    }
+
+    .sticky-btn-email {
+      background: rgba(255,255,255,.10);
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,.2);
+    }
+
+    /* ==============================
+       MOBILE MENU
+    ============================== */
+    .mobile-nav {
+      display: none;
+      flex-direction: column;
+      background: var(--navy-dark);
+      border-top: 1px solid rgba(255,255,255,.10);
+      padding: 12px 20px 16px;
+    }
+
+    .mobile-nav a {
+      color: rgba(255,255,255,.80);
+      font-size: 15px;
+      font-weight: 500;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+    }
+
+    .mobile-nav a:last-child { border-bottom: none; }
+
+    /* ==============================
+       RESPONSIVE
+    ============================== */
+    @media (max-width: 900px) {
+      .depannage-grid,
+      .contact-grid { grid-template-columns: 1fr; gap: 36px; }
+
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      nav { display: none; }
+      .menu-toggle { display: block; }
+      .mobile-nav.open { display: flex; }
+
+      .hero { padding: 56px 20px 52px; }
+
+      .sticky-cta { display: block; }
+
+      body { padding-bottom: 76px; }
+
+      .footer-grid { grid-template-columns: 1fr; }
+
+      .services-grid { grid-template-columns: 1fr 1fr; }
+
+      section { padding: 52px 20px; }
+    }
+
+    @media (max-width: 400px) {
+      .services-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ==============================
+       UTILITIES
+    ============================== */
+    .text-center { text-align: center; }
+    .text-center .section-desc { margin: 0 auto; }
+    .mt-4 { margin-top: 16px; }
+    .mt-8 { margin-top: 32px; }
+  </style>
+</head>
+<body>
+
+<!-- ==============================
+     HEADER
+============================== -->
+<header>
+  <div class="header-inner">
+    <a href="#" class="logo" aria-label="Nicolas BONN – Accueil">
+      <div class="logo-icon">🔧</div>
+      <div class="logo-text">
+        <strong>Nicolas BONN</strong>
+        <span>Plomberie · Chauffage · Ramonage</span>
+      </div>
+    </a>
+
+    <nav aria-label="Navigation principale">
+      <a href="#services">Services</a>
+      <a href="#depannage">Dépannage</a>
+      <a href="#confiance">À propos</a>
+      <a href="#faq">FAQ</a>
+      <a href="tel:+33672102393" class="nav-cta">📞 06 72 10 23 93</a>
+    </nav>
+
+    <button class="menu-toggle" onclick="toggleMenu()" aria-label="Ouvrir le menu" aria-expanded="false" id="menu-toggle">
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </button>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile">
+    <a href="#services" onclick="closeMenu()">Services</a>
+    <a href="#depannage" onclick="closeMenu()">Dépannage</a>
+    <a href="#confiance" onclick="closeMenu()">À propos</a>
+    <a href="#faq" onclick="closeMenu()">FAQ</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+    <a href="tel:+33672102393" style="color:#f9b87a;font-weight:700;" onclick="closeMenu()">📞 Appeler Nicolas BONN</a>
+  </nav>
+</header>
+
+
+<!-- ==============================
+     HERO
+============================== -->
+<section class="hero" aria-label="Présentation">
+  <div class="container">
+    <div class="hero-badge">
+      <span>📍</span> Uzer – Ardèche
+    </div>
+
+    <h1>
+      Plombier, chauffagiste<br />
+      et ramoneur à <em>Uzer</em>
+    </h1>
+
+    <p class="hero-sub">
+      Nicolas BONN intervient pour vos travaux de plomberie, chauffage, ramonage,
+      dépannage et entretien à Uzer et aux alentours en Ardèche.
+      Artisan local, contact direct, intervention à domicile.
+    </p>
+
+    <div class="hero-btns">
+      <a href="tel:+33672102393" class="btn btn-primary">
+        📞 Appeler maintenant
+      </a>
+      <a href="mailto:nbsnico.007@hotmail.fr" class="btn btn-outline">
+        ✉️ Envoyer un email
+      </a>
+    </div>
+
+    <div class="hero-phones">
+      <div class="hero-phone-item">
+        <div class="hero-phone-icon">📱</div>
+        <div>
+          <div style="font-size:11px;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px;">Mobile</div>
+          <a href="tel:+33672102393" style="color:white;font-weight:700;font-size:16px;">06 72 10 23 93</a>
+        </div>
+      </div>
+      <div class="hero-phone-item">
+        <div class="hero-phone-icon">☎️</div>
+        <div>
+          <div style="font-size:11px;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px;">Fixe</div>
+          <a href="tel:+33475930922" style="color:white;font-weight:700;font-size:16px;">04 75 93 09 22</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==============================
+     TRUST BAR
+============================== -->
+<div class="trust-bar" role="complementary" aria-label="Points forts">
+  <div class="trust-bar-inner">
+    <div class="trust-item">🔧 Plomberie &amp; Chauffage</div>
+    <div class="trust-item">🔥 Ramonage</div>
+    <div class="trust-item">⚡ Dépannage</div>
+    <div class="trust-item">🏠 Entretien à domicile</div>
+    <div class="trust-item">📍 Uzer &amp; environs</div>
+  </div>
+</div>
+
+
+<!-- ==============================
+     SERVICES
+============================== -->
+<section id="services" aria-labelledby="services-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Nos services</span>
+      <h2 class="section-title" id="services-title">Plomberie, chauffage, ramonage<br />et plus encore</h2>
+      <p class="section-desc">
+        Nicolas BONN prend en charge l'ensemble de vos besoins en plomberie, chauffage
+        et entretien à domicile à Uzer et dans les environs.
+      </p>
+    </div>
+
+    <div class="services-grid">
+
+      <article class="service-card">
+        <div class="service-icon">🚿</div>
+        <h3>Plomberie</h3>
+        <p>Installation, réparation et remplacement de canalisations, robinetterie, sanitaires et équipements de plomberie.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">💧</div>
+        <h3>Dépannage plomberie</h3>
+        <p>Fuite d'eau, canalisation bouchée, robinet cassé : intervention rapide pour résoudre le problème chez vous.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">🔥</div>
+        <h3>Chauffage</h3>
+        <p>Installation et entretien de chaudières, radiateurs et systèmes de chauffage pour assurer votre confort en toutes saisons.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">🛠️</div>
+        <h3>Entretien chauffage</h3>
+        <p>Révision annuelle de votre chaudière, contrôle du brûleur et des réglages pour un fonctionnement sûr et économique.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">🏠</div>
+        <h3>Ramonage</h3>
+        <p>Ramonage de cheminée et de conduit de fumée conforme à la réglementation. Indispensable pour votre sécurité et votre assurance.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">🔩</div>
+        <h3>Entretien courant</h3>
+        <p>Vérification et maintenance régulière de vos installations pour prévenir les pannes et prolonger leur durée de vie.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">⚙️</div>
+        <h3>Petites réparations</h3>
+        <p>Remplacement d'un joint, d'un robinet, d'un flotteur de chasse d'eau ou tout autre réparation courante du quotidien.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">🚗</div>
+        <h3>Intervention à domicile</h3>
+        <p>Nicolas BONN se déplace directement chez vous à Uzer et dans les communes voisines de l'Ardèche pour intervenir en toute simplicité.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==============================
+     PHOTO PLACEHOLDER
+============================== -->
+<section style="background:var(--white);padding:50px 20px;">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;">
+
+      <div class="photo-placeholder" style="min-height:240px;">
+        <span class="ph-icon">👷</span>
+        <strong>Photo de l'artisan</strong>
+        <p>Ajoutez ici une photo de Nicolas BONN en intervention pour renforcer la confiance des visiteurs.</p>
+      </div>
+
+      <div class="photo-placeholder" style="min-height:240px;">
+        <span class="ph-icon">🏷️</span>
+        <strong>Logo / Carte de visite</strong>
+        <p>Déposez ici votre logo ou votre carte de visite pour affirmer votre identité visuelle.</p>
+      </div>
+
+      <div class="photo-placeholder" style="min-height:240px;">
+        <span class="ph-icon">📸</span>
+        <strong>Photos d'interventions</strong>
+        <p>Montrez des chantiers réalisés : plomberie, chauffage, ramonage… pour illustrer votre savoir-faire.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==============================
+     DÉPANNAGE
+============================== -->
+<section id="depannage" aria-labelledby="depannage-title">
+  <div class="container">
+    <div class="depannage-grid">
+
+      <div>
+        <span class="section-label" style="background:rgba(232,112,26,.20);color:#f9b87a;">Dépannage</span>
+        <h2 class="section-title depannage-title" id="depannage-title">Vous avez un problème urgent&nbsp;?</h2>
+        <p class="section-desc depannage-desc">
+          Nicolas BONN est joignable directement. Un appel suffit pour convenir
+          d'une intervention à votre domicile, à Uzer ou dans les environs.
+        </p>
+
+        <ul class="depannage-list" role="list">
+          <li>
+            <span class="icon">💧</span>
+            <span>Fuite d'eau ou canalisation endommagée</span>
+          </li>
+          <li>
+            <span class="icon">🔧</span>
+            <span>Panne ou problème de plomberie</span>
+          </li>
+          <li>
+            <span class="icon">🔥</span>
+            <span>Chaudière en panne ou entretien chauffage</span>
+          </li>
+          <li>
+            <span class="icon">🏠</span>
+            <span>Ramonage de cheminée ou conduit encrassé</span>
+          </li>
+          <li>
+            <span class="icon">🚗</span>
+            <span>Intervention à domicile à Uzer et environs</span>
+          </li>
+        </ul>
+
+        <a href="tel:+33672102393" class="btn btn-primary">
+          📞 Appeler Nicolas BONN
+        </a>
+      </div>
+
+      <div class="depannage-box">
+        <div class="emoji-big">📞</div>
+        <p class="phone-label" style="margin-top:16px;">Mobile – contact direct</p>
+        <a href="tel:+33672102393" class="big-phone">06 72 10 23 93</a>
+        <p class="fixed-phone">Fixe : <a href="tel:+33475930922" style="color:rgba(255,255,255,.70);">04 75 93 09 22</a></p>
+        <a href="tel:+33672102393" class="btn btn-primary" style="width:100%;justify-content:center;font-size:16px;">
+          Appeler maintenant
+        </a>
+        <p style="margin-top:18px;font-size:13px;color:rgba(255,255,255,.50);">
+          Ou par email :<br />
+          <a href="mailto:nbsnico.007@hotmail.fr" style="color:rgba(255,255,255,.65);word-break:break-all;">nbsnico.007@hotmail.fr</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==============================
+     CONFIANCE
+============================== -->
+<section id="confiance" aria-labelledby="confiance-title">
+  <div class="container">
+    <div class="section-head text-center">
+      <span class="section-label">Pourquoi choisir Nicolas BONN&nbsp;?</span>
+      <h2 class="section-title" id="confiance-title">Un artisan local de confiance</h2>
+      <p class="section-desc">
+        Nicolas BONN est un artisan ancré dans son territoire. Il intervient directement,
+        sans intermédiaire, pour vous apporter un service de proximité.
+      </p>
+    </div>
+
+    <div class="confiance-grid">
+
+      <div class="confiance-card">
+        <span class="icon">📍</span>
+        <h3>Artisan local</h3>
+        <p>Basé à Uzer en Ardèche, Nicolas BONN connaît le terrain et intervient rapidement dans les environs.</p>
+      </div>
+
+      <div class="confiance-card">
+        <span class="icon">📞</span>
+        <h3>Contact direct</h3>
+        <p>Vous appelez, vous parlez directement à Nicolas. Pas de centrale d'appel, pas de délai inutile.</p>
+      </div>
+
+      <div class="confiance-card">
+        <span class="icon">🔧</span>
+        <h3>Services polyvalents</h3>
+        <p>Plomberie, chauffage, ramonage : un seul artisan pour tous vos besoins courants et d'entretien.</p>
+      </div>
+
+      <div class="confiance-card">
+        <span class="icon">🏠</span>
+        <h3>Intervention à domicile</h3>
+        <p>Nicolas se déplace chez vous. Pas besoin de transporter vos équipements ou de vous déplacer.</p>
+      </div>
+
+      <div class="confiance-card">
+        <span class="icon">💬</span>
+        <h3>Explications claires</h3>
+        <p>Il vous explique le problème et ce qu'il va faire avant d'intervenir, sans jargon inutile.</p>
+      </div>
+
+      <div class="confiance-card">
+        <span class="icon">🤝</span>
+        <h3>Relation de proximité</h3>
+        <p>Vous traitez avec la même personne du premier appel à la fin de l'intervention. Simple et rassurant.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==============================
+     CONTACT
+============================== -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Contact</span>
+      <h2 class="section-title" id="contact-title">Prendre contact avec Nicolas BONN</h2>
+      <p class="section-desc">
+        Pour un renseignement, un devis ou une intervention, contactez Nicolas directement
+        par téléphone ou par email.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info-block">
+
+        <div class="contact-item">
+          <div class="ci-icon">📱</div>
+          <div class="ci-body">
+            <strong>Mobile</strong>
+            <a href="tel:+33672102393">06 72 10 23 93</a>
+            <span class="secondary">Contactez Nicolas directement</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="ci-icon">☎️</div>
+          <div class="ci-body">
+            <strong>Fixe</strong>
+            <a href="tel:+33475930922">04 75 93 09 22</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="ci-icon">✉️</div>
+          <div class="ci-body">
+            <strong>Email</strong>
+            <a href="mailto:nbsnico.007@hotmail.fr">nbsnico.007@hotmail.fr</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="ci-icon">📍</div>
+          <div class="ci-body">
+            <strong>Adresse</strong>
+            <span>825 Quartier les Combes Volpillieres</span>
+            <span class="secondary">Uzer, Ardèche</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="ci-icon">🌐</div>
+          <div class="ci-body">
+            <strong>Réseaux sociaux</strong>
+            <a href="https://www.facebook.com/profile.php?id=100089668975524" target="_blank" rel="noopener noreferrer">Page Facebook</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="ci-icon">🗺️</div>
+          <div class="ci-body">
+            <strong>Zone d'intervention</strong>
+            <span>Uzer et les communes environnantes</span>
+            <span class="secondary">Ardèche (07)</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="map-placeholder" role="img" aria-label="Localisation à Uzer, Ardèche">
+        <div class="map-emoji">🗺️</div>
+        <strong>Uzer – Ardèche (07)</strong>
+        <p>825 Quartier les Combes Volpillieres, Uzer</p>
+        <p style="margin-top:10px;font-size:12.5px;color:#aaa;">
+          Vous pouvez intégrer ici une carte Google Maps ou OpenStreetMap<br />
+          pointant sur l'adresse de Nicolas BONN.
+        </p>
+        <a
+          href="https://www.google.com/maps/search/825+Quartier+les+Combes+Volpillieres,+Uzer,+Ardèche"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary"
+          style="margin-top:16px;font-size:13px;"
+        >
+          Voir sur Google Maps
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==============================
+     FAQ
+============================== -->
+<section id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Questions fréquentes</span>
+      <h2 class="section-title" id="faq-title">Vos questions sur Nicolas BONN</h2>
+      <p class="section-desc">
+        Retrouvez les réponses aux questions les plus courantes sur les services
+        proposés à Uzer et dans les environs.
+      </p>
+    </div>
+
+    <div class="faq-list" role="list">
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Nicolas BONN intervient-il à Uzer ?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Oui, Nicolas BONN est basé à Uzer en Ardèche et intervient à Uzer ainsi que dans les communes environnantes.
+          C'est un artisan local qui connaît bien la région.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Quels services propose Nicolas BONN ?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Nicolas BONN propose des services de plomberie (installation, réparation, dépannage),
+          de chauffage (installation, entretien de chaudière), de ramonage (cheminée, conduits de fumée),
+          ainsi que des petites réparations et de l'entretien courant à domicile.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Peut-on appeler Nicolas BONN pour un dépannage plomberie ?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Oui, vous pouvez contacter Nicolas BONN directement au 06 72 10 23 93 pour un dépannage plomberie.
+          Il vous renseignera sur les possibilités d'intervention selon la situation.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Nicolas BONN propose-t-il des services de chauffage ?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Oui, Nicolas BONN intervient pour l'installation et l'entretien de systèmes de chauffage.
+          Il peut effectuer la révision de votre chaudière et s'assurer du bon fonctionnement de votre installation.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Réalise-t-il le ramonage de cheminée ?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Oui, le ramonage de cheminée et de conduits de fumée fait partie des prestations proposées par Nicolas BONN.
+          Le ramonage est obligatoire au moins une fois par an dans la plupart des logements chauffés au bois ou au fioul.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Peut-on demander une intervention d'entretien régulier ?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Oui, vous pouvez contacter Nicolas BONN pour un entretien courant de vos installations de plomberie
+          et de chauffage. Un entretien préventif permet d'éviter les pannes et de prolonger la durée de vie de vos équipements.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Comment contacter Nicolas BONN rapidement ?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Le moyen le plus rapide est de l'appeler directement au <strong>06 72 10 23 93</strong> (mobile).
+          Vous pouvez également essayer le fixe au <strong>04 75 93 09 22</strong> ou envoyer un email
+          à <strong>nbsnico.007@hotmail.fr</strong>.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Le numéro de téléphone est-il cliquable sur mobile ?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Oui, tous les numéros de téléphone présents sur ce site sont cliquables sur smartphone.
+          Un simple appui sur le numéro lance directement l'appel vers Nicolas BONN.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==============================
+     FOOTER
+============================== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-icon">🔧</div>
+          <div class="logo-text">
+            <strong>Nicolas BONN</strong>
+            <span>Plomberie · Chauffage · Ramonage</span>
+          </div>
+        </div>
+        <p class="footer-tagline">
+          Artisan local à Uzer en Ardèche, spécialisé en plomberie,
+          chauffage, ramonage et dépannage à domicile.
+        </p>
+        <div class="footer-social">
+          <a
+            href="https://www.facebook.com/profile.php?id=100089668975524"
+            class="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Page Facebook de Nicolas BONN"
+          >f</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Plomberie</a></li>
+          <li><a href="#services">Dépannage plomberie</a></li>
+          <li><a href="#services">Chauffage</a></li>
+          <li><a href="#services">Entretien chauffage</a></li>
+          <li><a href="#services">Ramonage</a></li>
+          <li><a href="#services">Entretien courant</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+33672102393">📱 06 72 10 23 93</a></li>
+          <li><a href="tel:+33475930922">☎️ 04 75 93 09 22</a></li>
+          <li><a href="mailto:nbsnico.007@hotmail.fr">✉️ Email</a></li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100089668975524" target="_blank" rel="noopener noreferrer">
+              🌐 Facebook
+            </a>
+          </li>
+        </ul>
+        <div style="margin-top:16px;font-size:13px;color:rgba(255,255,255,.5);line-height:1.55;">
+          825 Quartier les Combes<br />Volpillieres, Uzer (Ardèche)
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2024 Nicolas BONN – Plombier, Chauffagiste, Ramoneur à Uzer, Ardèche</span>
+      <span>Uzer · Ardèche · 07110</span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ==============================
+     STICKY CTA (mobile only)
+============================== -->
+<div class="sticky-cta" role="complementary" aria-label="Appel rapide">
+  <div class="sticky-cta-inner">
+    <a href="tel:+33672102393" class="sticky-btn sticky-btn-call">
+      📞 Appeler Nicolas BONN
+    </a>
+    <a href="mailto:nbsnico.007@hotmail.fr" class="sticky-btn sticky-btn-email">
+      ✉️ Email
+    </a>
+  </div>
+</div>
+
+
+<!-- ==============================
+     JS
+============================== -->
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('mobile-nav');
+    const btn = document.getElementById('menu-toggle');
+    const open = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open);
+  }
+
+  function closeMenu() {
+    const nav = document.getElementById('mobile-nav');
+    const btn = document.getElementById('menu-toggle');
+    nav.classList.remove('open');
+    btn.setAttribute('aria-expanded', false);
+  }
+
+  function toggleFaq(btn) {
+    const answer = btn.nextElementSibling;
+    const isOpen = btn.classList.contains('open');
+
+    // Close all
+    document.querySelectorAll('.faq-question.open').forEach(q => {
+      q.classList.remove('open');
+      q.setAttribute('aria-expanded', 'false');
+      q.nextElementSibling.classList.remove('open');
+    });
+
+    // Open clicked (unless it was already open)
+    if (!isOpen) {
+      btn.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+      answer.classList.add('open');
+    }
+  }
+
+  // Smooth close mobile nav on outside click
+  document.addEventListener('click', function(e) {
+    const nav = document.getElementById('mobile-nav');
+    const toggle = document.getElementById('menu-toggle');
+    if (nav.classList.contains('open') && !nav.contains(e.target) && !toggle.contains(e.target)) {
+      closeMenu();
+    }
+  });
+</script>
+
+</body>
+</html>
